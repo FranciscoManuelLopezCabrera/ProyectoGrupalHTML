@@ -1,0 +1,46 @@
+/*MENU*/
+nav {
+    text-align: center;
+}
+
+#menu{
+    width:auto;
+    display:block;
+    text-align:center;
+    font-family:Montserrat;
+    left:auto;
+    
+}
+
+#menu ul{
+    font-size:0;
+    text-align:center;
+    color:#EEEEEE;
+    background-color: #000;
+    border: transparent;
+    list-style:none;
+    z-index:9;
+} 
+
+
+#menu li{
+    display:inline-block;
+    position:relative;
+}
+
+#menu >ul>li>span, #menu >ul>li>a {   
+    font-size:22px;
+    color:inherit;
+    text-decoration:none;
+    padding:24px 20px; 
+    text-transform:uppercase;
+    letter-spacing:2px;   
+    display:block;   
+    position:relative;
+    transition:all 0.3s;
+}
+
+#menu li:hover > span, #menu li:hover > a{  
+    color:#000;
+    background-color:#f4b41a;
+}

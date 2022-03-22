@@ -1,0 +1,75 @@
+/*MENU2*/
+#menu2{
+    margin-top: 20px;
+    width:auto;
+    display:block;
+    text-align:center;
+    font-family:Montserrat;
+    left:auto;
+    
+}
+
+#menu2 ul{
+    font-size:0;
+    text-align:center;
+    color:#EEEEEE;
+    background-color: #000;
+    border: transparent;
+    list-style:none;
+    z-index:9;
+} 
+
+
+#menu2 li{
+    display:inline-block;
+    position:relative;
+}
+
+#menu2 >ul>li>span, #menu2 >ul>li>a {   
+    font-size:22px;
+    color:inherit;
+    text-decoration:none;
+    padding:24px 20px; 
+    text-transform:uppercase;
+    letter-spacing:2px;   
+    display:block;   
+    position:relative;
+    transition:all 0.3s;
+}
+
+ #estandar{  
+    background-color:#f4b41a;
+}
+
+
+
+/*BODY*/
+#cajatarifa{
+    background-color: grey;
+    font-family: Montserrat;
+    font-size: 18px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:solid 5px #f4b41a;
+    font-family: Candara;
+}
+
+#listadotarifa{
+    list-style-type: disc;
+}
+
+#listadotarifa li{
+    padding: 5px;
+    margin-left: 17px;
+}
+
+#tablaprecio{
+    border-spacing: 5px;
+}
+
+
+#tablaprecio th, td{
+    padding: 5px;
+}

@@ -1,0 +1,42 @@
+/*FOOTER*/
+.divfooter{
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+    background: #000;
+    color: white;
+}
+
+.divfooter, .divfooter ul li, .divfooter ul li a {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+
+.comunidad, .quienessomos, .contactanos{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.divfooter li:not(:first-child) {
+    opacity: 70%;
+}
+
+.divfooter li:not(:first-child):hover, .divfooter a{
+    opacity: 100%;
+}
+.divfooter a:hover{
+    color:#f4b41a;
+}
+
+.divfooter li a{
+    margin-bottom: 2px;
+}
