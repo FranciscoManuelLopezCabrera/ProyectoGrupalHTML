@@ -43,6 +43,7 @@
 
 /*BODY*/
 #cajatarifa{
+    display: flex;
     background-color: grey;
     font-family: Montserrat;
     font-size: 18px;
@@ -70,4 +71,9 @@
 
 #tablaprecio th, td{
     padding: 5px;
+}
+
+#asidefoto{
+    float: right;
+    width: 100%;
 }
