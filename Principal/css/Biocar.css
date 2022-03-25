@@ -1,6 +1,11 @@
 /*BODY*/
 main img{}
 
+
+.icono1{
+    margin-right: 20px;
+}
+
 .contenedor{
     font-family: Candara;
     background: #414141;
@@ -59,9 +64,23 @@ main p{
     font-size: 18px;
 }
 
+
+
+
+.icono{
+    transform: rotate(180deg);
+}
+
+.titulo{
+    margin-top: 50px;
+    background: #f4b41a;
+    padding-top: 25px;
+    padding-bottom: 1px;
+}
+
 .contenedor3{
     display: inline-flex;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 8%;
 }
 .contenedormapa{
