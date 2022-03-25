@@ -2,9 +2,7 @@
 main img{}
 
 
-.icono1{
-    margin-right: 20px;
-}
+
 
 .contenedor{
     font-family: Candara;
@@ -16,7 +14,7 @@ main img{}
     margin-left: 25%;
     margin-right: 25%;
     border-radius: 20px;
-    box-shadow: 0px 3px 8px #000;
+    box-shadow: 4px 4px 15px black;
 }
 
 h1{
@@ -30,6 +28,7 @@ h2{
 }
 .ventajas{
     display:inline-flex;
+    padding: 0px 30px;
 }
 .izquierda{
     float: left;
@@ -76,6 +75,7 @@ main p{
     background: #f4b41a;
     padding-top: 25px;
     padding-bottom: 1px;
+    box-shadow: 0px 0px 10px;
 }
 
 .contenedor3{
@@ -96,6 +96,7 @@ main p{
     height: 380px;
     border-radius: 20px;
     padding: 30px 30px;
+    box-shadow: 0px 0px 10px black;
 }
 .formulario h2{
     text-align: center;
