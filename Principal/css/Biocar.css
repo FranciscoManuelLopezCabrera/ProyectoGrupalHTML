@@ -122,6 +122,7 @@ main p{
 
 
 #nombre, #apellido{
+    text-align: center;
     padding: 7px;
     color:white;
     background: #212121;
@@ -134,6 +135,7 @@ main p{
     margin-bottom:10px;
 }
 #correo{
+    text-align: center;
     padding: 7px;
     color:white;
     background: #212121;
