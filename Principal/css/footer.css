@@ -1,12 +1,18 @@
+
+
 /*FOOTER*/
+
+/*Logo*/
 .logofooter{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 80px;
 }
+
+/*Caracteristicas generales del footer*/
 .divfooter{
-    margin-top: 60px;
+    margin-top: 50px;
     padding-top: 50px;
-    padding-left: 400px;
+    padding-left: 200px;
     padding-right: 10px;
     padding-bottom: 50px;
     background: #000;
@@ -21,28 +27,45 @@
 }
 
 
+/*Caracteristicaas de los contenedores*/
 .comunidad, .quienessomos, .contactanos{
     margin-left: 100px;
-    margin-right: 100px;
 }
 
+/*Caracteristicas de iconos*/
+.comunidad ul{
+   display: inline-flex;
+   padding: 30px 80px;
+}
+.comunidad li{
+    margin-right: 50px;
+}
+.comunidad ion-icon{
+    margin-left:30px;
+    margin-top: 20px;
+    font-size:40px;
+}
+
+
+/*Titulo de apartados*/
 h3{
     margin-bottom: 10px;
     font-size: 25px;
 }
 
-.divfooter li:not(:first-child) {
+
+/*Efecto de cambio de color y opacidad de los enlaces*/
+.comunidad a, .quienessomos a, .contactanos a{
     opacity: 70%;
     font-size: 17px;
 }
 
-.divfooter li:not(:first-child):hover, .divfooter a{
-    opacity: 100%;
-}
 .divfooter a:hover{
+    opacity: 100%;
     color:#f4b41a;
 }
 
+/*Espaciado entre enlaces*/
 .divfooter li a{
     margin-bottom: 2px;
 }

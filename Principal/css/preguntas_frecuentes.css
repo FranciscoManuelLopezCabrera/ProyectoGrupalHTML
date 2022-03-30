@@ -36,6 +36,13 @@
     border-radius: 20px;
     box-shadow: 0px 3px 8px #000;
 }
+
+.contenedor-pregunta:hover{
+    transition-duration: 700ms;
+    background: #f4b41a;
+    color: black;;
+}
+
 .pregunta{
     font-size:27px;
     margin-bottom: 10px;
