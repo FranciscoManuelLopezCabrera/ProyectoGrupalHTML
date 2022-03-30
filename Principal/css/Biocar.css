@@ -1,8 +1,4 @@
 /*BODY*/
-main img{}
-
-
-
 
 .contenedor{
     font-family: Candara;
@@ -17,6 +13,8 @@ main img{}
     box-shadow: 4px 4px 15px black;
 }
 
+
+/*fuentes de titulos*/
 h1{
     text-transform:uppercase;
     font-size: 40px;
@@ -26,6 +24,8 @@ h1{
 h2{
     font-size: 30px;
 }
+
+/*Ventajas de BIOCAR*/
 .ventajas{
     display:inline-flex;
     padding: 0px 30px;
@@ -38,6 +38,7 @@ h2{
     float: right;
 }
 
+/*Fuente generica de los parrafos*/
 main p{
     font-size: 18px;
     opacity: 80%;
@@ -45,6 +46,7 @@ main p{
 }
 
 
+/*Contenedor de texto y imagen*/
 .contenedor2{
     position: relative;
     display: inline-block;
@@ -52,6 +54,7 @@ main p{
     color: white;
     font-family: Candara;
 }
+/*TEXTO ENCIMA DE IMAGEN*/
 .texto-encima{
     position: absolute;
     top: 30%;
@@ -59,13 +62,14 @@ main p{
     right: 19%;
 }
 .texto-encima span{
-    opacity: 95%;
+    opacity: 97%;
     font-size: 18px;
 }
 
 
 
 
+/*Titulo VISITANOS*/
 .icono{
     transform: rotate(180deg);
 }
@@ -78,15 +82,21 @@ main p{
     box-shadow: 0px 0px 10px 4px;
 }
 
+
+/*contenedor de mapa y formulario*/
 .contenedor3{
     display: inline-flex;
     margin-top: 50px;
     margin-left: 8%;
 }
+
+/*Contenedor mapa*/
 .contenedormapa{
     float: left;
     margin-right: 150px;
 }
+
+/*Contenedor formulario*/
 .formulario{ 
     color: white;
     margin-top: 25px;
@@ -160,6 +170,7 @@ main p{
 }
 
 #enviar:hover{
+    transition-duration: 400ms;
     border: none;
     color: black;
     background: #f4b41a;
