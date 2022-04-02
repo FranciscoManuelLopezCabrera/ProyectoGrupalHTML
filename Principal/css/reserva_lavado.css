@@ -1,1 +1,24 @@
 /*BODY*/
+.caja{
+    background-color: #414141;
+    font-family: Montserrat;
+    font-size: 18px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border:solid 5px #f4b41a;
+    font-family: Candara;
+    color: white;
+    margin: 20px;
+}
+
+.caja h1{
+    text-align: center;
+}
+form{
+    margin-top: 15px;
+}
+input [type="text"]{
+
+}
