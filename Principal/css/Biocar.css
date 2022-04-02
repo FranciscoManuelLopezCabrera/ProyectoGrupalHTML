@@ -1,5 +1,14 @@
-/*BODY*/
+html {
+    overflow: scroll;
+}
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+    /* Convierte la Scroll bar invisible */
+}
+
+/*BODY*/
 .contenedor{
     font-family: Candara;
     background: #414141;

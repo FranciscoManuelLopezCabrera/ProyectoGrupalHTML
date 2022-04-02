@@ -1,3 +1,4 @@
+
 .banner{
     width:auto;
     margin-left: 150px;
@@ -30,10 +31,8 @@
 .basico:hover, .estandar:hover, .premium:hover{
     transition-duration: 700ms;
     background: #f4b41a;
-    color: black;
-    cursor: pointer;
+    color: black;;
 }
-
 .basico h2, .estandar h2, .premium h2{
     padding: 20px;
     text-align: center;
