@@ -4,8 +4,9 @@ nav {
 }
 
 #menu{
+    display: block;
     width:auto;
-    display:block;
+    display:fixed;
     text-align:center;
     font-family:Montserrat;
     left:auto;
