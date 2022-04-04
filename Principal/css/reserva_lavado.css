@@ -1,5 +1,49 @@
+/*MENU2*/
+#menu2{
+    margin-top: 20px;
+    width:auto;
+    display:block;
+    text-align:center;
+    font-family:Montserrat;
+    left:auto;
+    
+}
+
+#menu2 ul{
+    font-size:0;
+    text-align:center;
+    color:#EEEEEE;
+    background-color: #000;
+    border: transparent;
+    list-style:none;
+    z-index:9;
+} 
+
+
+#menu2 li{
+    display:inline-block;
+    position:relative;
+}
+
+#menu2 >ul>li>span, #menu2 >ul>li>a {   
+    font-size:22px;
+    color:inherit;
+    text-decoration:none;
+    padding:24px 20px; 
+    text-transform:uppercase;
+    letter-spacing:2px;   
+    display:block;   
+    position:relative;
+    transition:all 0.3s;
+}
+
+#menu2 li:hover > span, #menu2 li:hover > a{  
+    color:#000;
+    background-color:#f4b41a;
+}
+
 /*BODY*/
-.caja{
+.caja {
     background-color: #414141;
     font-family: Montserrat;
     font-size: 18px;
@@ -7,18 +51,125 @@
     padding-left: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border:solid 5px #f4b41a;
+    border: solid 5px #f4b41a;
     font-family: Candara;
     color: white;
-    margin: 20px;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 50px;
 }
 
-.caja h1{
+footer {
+    margin-top: auto;
+}
+
+.caja h1 {
     text-align: center;
 }
-form{
-    margin-top: 15px;
-}
-input [type="text"]{
 
+select {
+    margin-left: 5px;
 }
+
+form {
+    margin-top: 25px;
+}
+
+#especiales {
+    margin-top: 25px;
+}
+
+select {
+    text-align: center;
+}
+
+#enviar {
+    border: none;
+    margin-top: 10px;
+    margin-left: 45%;
+    color: white;
+    background: #212121;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    font-family: Candana;
+    font-size: 22px;
+}
+
+#enviar:hover {
+    transition-duration: 400ms;
+    border: none;
+    color: black;
+    background: #f4b41a;
+}
+
+label {
+    display: inline-block;
+    clear: left;
+    width: 300px;
+    text-align: right;
+    margin-left: 80px;
+  
+}
+
+input {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+select{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#acepto{
+    margin-left: 250px;
+    margin-bottom: 10px;
+}
+
+
+
+/* <h1 id="especiales">RESERVA PARA LAVADOS ESPECIALES</h1>
+                <form>
+                    <label for="lavados">Elija su tipo de lavado</label>
+                    <select name="lavados" id="lavados" form="lavados">
+                        <option value="Básico">Básico</option>
+                        <option value="Estándar">Estándar</option>
+                        <option value="Premium">Premium</option>
+                    </select>
+                </form>
+
+                <br>
+
+                <form>
+                    <label for="flotas">Elija su tipo de servicio</label>
+                    <select name="flotas" id="flotas" form="flotas">
+                        <option value="flota">Flota</option>
+                        <option value="exposicion">Exposición</option>
+                        <option value="empresa">Vehículo empresarial</option>
+                    </select>
+                </form>
+
+                <br>
+
+                <form>
+                    <label for="numerocoches2">Número de vehículos (hasta 20 vehículos)</label>
+                    <input type="number" id="numerocoches2" name="numerocoches2" min="1" max="20" value="1">
+                    </select>
+                </form>
+
+                <br>
+
+                <form>
+                    <label for="fname">Nombre:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Apellidos</label>
+                    <input type="text" id="lname" name="lname">
+                </form>
+
+                <form>
+                    <label for="fname">Teléfono:</label>
+                    <input type="tel" id="phone" name="phone"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+                </form>
+*/
