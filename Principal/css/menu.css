@@ -6,7 +6,8 @@ nav {
 #menu{
     display: block;
     width:auto;
-    display:fixed;
+    display:fixed;                              /*CSS para el menú navegador principal,
+                                                    común en todas las páginas*/
     text-align:center;
     font-family:Montserrat;
     left:auto;

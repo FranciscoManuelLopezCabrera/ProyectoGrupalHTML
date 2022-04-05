@@ -4,8 +4,7 @@ html {
 
 ::-webkit-scrollbar {
     width: 0px;
-    background: transparent;
-    /* Convierte la Scroll bar invisible */
+    background: transparent;                            /* Convierte la Scroll bar invisible */
 }
 
 /*BODY*/

@@ -2,7 +2,7 @@
 #menu2{
     margin-top: 20px;
     width:auto;
-    display:block;
+    display:block;                  /*CSS Para modificar el navegador de reservas*/
     text-align:center;
     font-family:Montserrat;
     left:auto;
@@ -59,29 +59,7 @@
     margin-top: 50px;
 }
 
-footer {
-    margin-top: auto;
-}
-
-.caja h1 {
-    text-align: center;
-}
-
-select {
-    margin-left: 5px;
-}
-
-form {
-    margin-top: 25px;
-}
-
-#especiales {
-    margin-top: 25px;
-}
-
-select {
-    text-align: center;
-}
+/*Botón enviar*/
 
 #enviar {
     border: none;
@@ -89,7 +67,7 @@ select {
     margin-left: 42%;
     color: white;
     background: #212121;
-    border-radius: 50px;
+    border-radius: 50px;                /*CSS para el botón de enviar*/
     width: 100px;
     height: 30px;
     font-family: Candana;
@@ -102,6 +80,8 @@ select {
     color: black;
     background: #f4b41a;
 }
+
+/*Formulario*/
 
 label {
     display: inline-block;
@@ -120,9 +100,26 @@ input {
 select{
     display: inline-block;
     margin-left: 20px;
+    text-align: center;
 }
 
 #acepto{
     margin-left: 250px;
     margin-bottom: 10px;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.caja h1 {
+    text-align: center;
+}
+
+form {
+    margin-top: 25px;
+}
+
+#especiales {
+    margin-top: 25px;
 }
